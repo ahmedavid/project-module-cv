@@ -13,7 +13,7 @@ python generate_floorplans.py --n_images 1000 --min_rooms 6 --max_rooms 14 --out
 ## Performance Metrics
 The training script evaluates model quality using two metrics computed on the validation set after each epoch.
 
-###Pixel Accuracy
+### Pixel Accuracy
 Pixel accuracy is the simplest segmentation metric. It measures the percentage of pixels that were classified correctly:
 
 
