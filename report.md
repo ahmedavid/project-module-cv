@@ -116,7 +116,7 @@ The learning rate was reduced once during training:
 
 ### Training Curves
 
-![Training Curves](runs/20260213_133411/training_curves.png)
+![Training Curves](training_curves.png)
 
 **Observations:**
 
@@ -142,13 +142,13 @@ The test metrics are consistent with train and validation, confirming that the m
 
 ### Visual Predictions
 
-![Test Predictions](runs/20260213_133411/test_predictions.png)
+![Test Predictions](test_predictions.png)
 
 The model correctly identifies room centres, door centres, and connecting edges. Predictions closely match the ground truth structure.
 
 ### Overlay Predictions
 
-![Overlay Predictions](runs/20260213_133411/overlay_predictions.png)
+![Overlay Predictions](overlay_predictions.png)
 
 Green = ground truth, Red/Orange = prediction. The high overlap between colours shows strong agreement. Minor deviations are visible at edge endpoints and in complex multi-room layouts.
 
